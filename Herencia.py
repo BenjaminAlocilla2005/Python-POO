@@ -33,7 +33,7 @@ class Gato(Animal):
         self.color_pelaje = color_pelaje
 
     def maullar(self):
-        print(f"{self.nombre} está ladrando")
+        print(f"{self.nombre} está maullando")
 
 class Pajaro(Animal):
     def __init__(self, nombre, edad, peso, genero, color_plumaje):
@@ -46,6 +46,8 @@ class Pajaro(Animal):
 perro1 = Perro("Alex", 10, 19.7, "Masculino", "Pastor Aleman")
 gato1 = Gato("Alice", 9, 10.4, "Femenino", "Blanco")
 pajaro1 = Pajaro("Jimmy", 5, 5.2, "Masculino", "Naranja")
+
+print("")
 
 perro1.ladrar()
 perro1.comer()
